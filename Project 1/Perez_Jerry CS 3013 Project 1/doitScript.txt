@@ -1,0 +1,67 @@
+Script started on 2020-09-11 03:20:03-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;root@jerry-VirtualBox: /home/jerry/Desktoproot@jerry-VirtualBox:/home/jerry/Desktop# exit./doit wc testing.txt[3Pg++ -o doit doit.C
+]0;root@jerry-VirtualBox: /home/jerry/Desktoproot@jerry-VirtualBox:/home/jerry/Desktop# g++ -o doit doit.Cexit[K./doit wc testing.txt
+ 1 14 68 testing.txt
+CPU System Time: 0milliseconds
+CPU User Time: 0.609milliseconds
+Wall Clock Time: 1.065 milliseconds
+Number of times the process was preempted involuntarily: 2
+Number of times process gave up the CPU voluntarily: 1
+Number of major page faults: 0
+Number of minor page faults: 81
+]0;root@jerry-VirtualBox: /home/jerry/Desktoproot@jerry-VirtualBox:/home/jerry/Desktop# ./doit wc testing.txt[3Pg++ -o doit doit.Cexit[K./doit wc testing.txt[K
+==>ls
+'Class Examples'   doit.C~	   'doit updated copy.C'
+ doit		  'doit (copy).C'   Test
+ doit.C		   doitScript.txt   testing.txt
+CPU System Time: 0 milliseconds
+CPU User Time: 1.247 milliseconds
+Wall Clock Time: 1.811 millseconds
+Number of times the process was preempted involuntarily: 14
+Number of times process gave up the CPU voluntarily: 1
+Number of major page faults: 0
+Number of minor page faults: 116
+==>cd Test
+Working directory is now: Test
+==>ls
+Hi
+CPU System Time: 0 milliseconds
+CPU User Time: 2.252 milliseconds
+Wall Clock Time: 1.352 millseconds
+Number of times the process was preempted involuntarily: 16
+Number of times process gave up the CPU voluntarily: 2
+Number of major page faults: 0
+Number of minor page faults: 228
+==>cd ..
+You are moving back a directory.
+==>set prompt = $
+$clear
+[H[2J[3JCPU System Time: 1.155 milliseconds
+CPU User Time: 2.252 milliseconds
+Wall Clock Time: 1.33 millseconds
+Number of times the process was preempted involuntarily: 17
+Number of times process gave up the CPU voluntarily: 3
+Number of major page faults: 0
+Number of minor page faults: 334
+$sleep 5
+CPU System Time: 1.155 milliseconds
+CPU User Time: 3.516 milliseconds
+Wall Clock Time: 5001.86 millseconds
+Number of times the process was preempted involuntarily: 17
+Number of times process gave up the CPU voluntarily: 5
+Number of major page faults: 0
+Number of minor page faults: 411
+$sleep 5&  &
+we have a background task and it is not fully functional
+CPU System Time: 1.155 milliseconds
+CPU User Time: 4.426 milliseconds
+Wall Clock Time: 5002.27 millseconds
+Number of times the process was preempted involuntarily: 17
+Number of times process gave up the CPU voluntarily: 7
+Number of major page faults: 0
+Number of minor page faults: 499
+$exit
+]0;root@jerry-VirtualBox: /home/jerry/Desktoproot@jerry-VirtualBox:/home/jerry/Desktop# exit
+exit
+
+Script done on 2020-09-11 03:21:08-04:00 [COMMAND_EXIT_CODE="0"]

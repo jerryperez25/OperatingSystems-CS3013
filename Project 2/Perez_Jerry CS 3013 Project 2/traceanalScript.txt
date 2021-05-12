@@ -1,0 +1,103 @@
+Script started on 2020-09-20 21:20:36-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ clear./traceanal < ls.slog[4@seq [C[C[C[C[C[C[C[C[Cg++ -o traceanal traceanal.Cclear[K./traceanal < ls.slogclear[Kg++ -o traceanal traceanal.C
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ g++ -o traceanal traceanal.Cclear[K./traceanal < ls.slog
+AAA: 105 invoked system call instances from 22 unique system calls
+access 2
+arch_prctl 2
+brk 3
+close 11
+execve 1
+exit_group 1
+fstat 10
+getdents64 2
+ioctl 2
+mmap 27
+mprotect 9
+munmap 1
+openat 9
+pread64 8
+prlimit64 1
+read 7
+rt_sigaction 2
+rt_sigprocmask 1
+set_robust_list 1
+set_tid_address 1
+statfs 2
+write 2
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ ./traceanal < ls.slogg++ -o traceanal traceanal.Cclear[K./traceanal < ls.slog[4@seq [C[C[C[C[C[C[C[C[C
+AAA: 105 invoked system call instances from 22 unique system calls
+execve 1
+	execve: brk 1
+brk 3
+	brk: arch_prctl 1
+	brk: brk 1
+	brk: openat 1
+arch_prctl 2
+	arch_prctl: access 1
+	arch_prctl: mprotect 1
+access 2
+	access: openat 2
+openat 9
+	openat: fstat 4
+	openat: read 5
+fstat 10
+	fstat: mmap 5
+	fstat: pread64 2
+	fstat: read 1
+	fstat: getdents64 1
+	fstat: write 1
+mmap 27
+	mmap: close 7
+	mmap: mmap 17
+	mmap: mprotect 2
+	mmap: arch_prctl 1
+close 11
+	close: openat 5
+	close: mmap 1
+	close: access 1
+	close: ioctl 1
+	close: fstat 1
+	close: close 1
+	close: exit_group 1
+read 7
+	read: fstat 3
+	read: pread64 2
+	read: read 1
+	read: close 1
+mprotect 9
+	mprotect: mmap 2
+	mprotect: mprotect 6
+	mprotect: munmap 1
+pread64 8
+	pread64: pread64 4
+	pread64: fstat 2
+	pread64: mmap 2
+munmap 1
+	munmap: set_tid_address 1
+set_tid_address 1
+	set_tid_address: set_robust_list 1
+set_robust_list 1
+	set_robust_list: rt_sigaction 1
+rt_sigaction 2
+	rt_sigaction: rt_sigaction 1
+	rt_sigaction: rt_sigprocmask 1
+rt_sigprocmask 1
+	rt_sigprocmask: prlimit64 1
+prlimit64 1
+	prlimit64: statfs 1
+statfs 2
+	statfs: statfs 1
+	statfs: brk 1
+ioctl 2
+	ioctl: ioctl 1
+	ioctl: openat 1
+getdents64 2
+	getdents64: getdents64 1
+	getdents64: close 1
+write 2
+	write: write 1
+	write: close 1
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-09-20 21:21:09-04:00 [COMMAND_EXIT_CODE="0"]

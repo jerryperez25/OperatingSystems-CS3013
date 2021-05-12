@@ -1,0 +1,39 @@
+Script started on 2020-10-05 19:12:43-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="79" LINES="29"]
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ make
+g++ -o addem addem.C -pthread
+g++ -o life life.C -pthread
+[01m[Klife.C:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Klife.C:425:22:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+  425 |   void* vall=(void*) [01;35m[Kres[m[K; //try to get rid of cast error
+      |                      [01;35m[K^~~[m[K
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ ls
+[0m[01;32maddem[0m    gen0  life.C    makeScript       Part2Script.txt
+addem.C  [01;32mlife[0m  Makefile  Part1Script.txt
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ lsmake add[K[K[K[K[K[K[K[Kmake clean
+rm addem
+rm life
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ make cleanls[K
+addem.C  gen0  life.C  Makefile  makeScript  Part1Script.txt  Part2Script.txt
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ make addem
+g++ -o addem addem.C -pthread
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ make addemls[K
+[0m[01;32maddem[0m    gen0    Makefile    Part1Script.txt
+addem.C  life.C  makeScript  Part2Script.txt
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ lsmake addem[K[K[K[K[Klife
+g++ -o life life.C -pthread
+[01m[Klife.C:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Klife.C:425:22:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+  425 |   void* vall=(void*) [01;35m[Kres[m[K; //try to get rid of cast error
+      |                      [01;35m[K^~~[m[K
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ make lifels[K
+[0m[01;32maddem[0m    gen0  life.C    makeScript       Part2Script.txt
+addem.C  [01;32mlife[0m  Makefile  Part1Script.txt
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ lsmake lifels[Kmake addemls[Kmake clean
+rm addem
+rm life
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ make cleanls[Kmake lifels[K
+addem.C  gen0  life.C  Makefile  makeScript  Part1Script.txt  Part2Script.txt
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 3[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 3[00m$ exit
+exit
+
+Script done on 2020-10-05 19:13:31-04:00 [COMMAND_EXIT_CODE="0"]

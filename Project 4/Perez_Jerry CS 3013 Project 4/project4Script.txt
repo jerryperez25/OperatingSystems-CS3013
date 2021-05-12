@@ -1,0 +1,26 @@
+Script started on 2020-10-14 00:16:59-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ make all
+g++ -o proj4 proj4.C
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ make all[2P./doit[1Pclear./doit[1Pclearmake alltouch testing.txt[A]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ [10Pclear
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./proj4 testfile 1000[C[K
+122 printable characters out of 122 bytes, 100%
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ ./proj4 testfile mmap
+122 printable characters out of 122 bytes, 100%
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ ./proj4 testfile mmap[K[K[K[K800
+122 printable characters out of 122 bytes, 100%
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ ./proj4 testfile 800[K[K[K900000
+The chunk size limit is 8192, setting chunk size to 8192
+122 printable characters out of 122 bytes, 100%
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ ./proj4 testfile 900000[C[C[3P800[K[K[K-1
+Please enter a positive chunk size. You entered: -1
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ ./proj4 testfile -1[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K
+Please enter the correct number of arguments
+It should be the form './proj4 srcfile optional:[size|mmap]
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ ./proj4 testfile -1[A]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ [C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C proj4
+3342 printable characters out of 18080 bytes, 18%
+]0;jerry@jerry-VirtualBox: ~/Desktop/Perez_Jerry CS 3013 Project 4[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop/Perez_Jerry CS 3013 Project 4[00m$ exit
+exit
+
+Script done on 2020-10-14 00:17:46-04:00 [COMMAND_EXIT_CODE="0"]

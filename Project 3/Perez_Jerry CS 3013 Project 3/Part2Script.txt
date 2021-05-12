@@ -1,0 +1,35 @@
+Script started on 2020-10-05 18:56:12-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ g++ -o test[K[K[K[Klife life.C -pthread
+[01m[Klife.C:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[Klife.C:425:22:[m[K [01;35m[Kwarning: [m[Kcast to pointer from integer of different size [[01;35m[K-Wint-to-pointer-cast[m[K]
+  425 |   void* vall=(void*) [01;35m[Kres[m[K; //try to get rid of cast error
+      |                      [01;35m[K^~~[m[K
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ g++ -o life life.C -pthreadexit[Kg++ -o life life.C -pthread[K./life 3 geno[K0 10 y
+This is how we started: 
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+Generation 1:
+0 0 0 0 
+0 1 1 0 
+0 0 0 0 
+
+The game ended due to: all organisms being dead over the span of 2 generations with an end state of: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ ./life 3 gen0 10 y[Kn
+This is how we started: 
+0 1 0 0 
+0 0 1 0 
+1 0 0 1 
+
+The game ended due to: all organisms being dead over the span of 2 generations with an end state of: 
+0 0 0 0 
+0 0 0 0 
+0 0 0 0 
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-10-05 18:57:15-04:00 [COMMAND_EXIT_CODE="0"]

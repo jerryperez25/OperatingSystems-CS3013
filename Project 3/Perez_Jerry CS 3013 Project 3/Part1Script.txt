@@ -1,0 +1,12 @@
+Script started on 2020-10-05 18:54:46-04:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="79" LINES="29"]
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ g++ -o addem addem.C -pthread
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ /[K./addem 1 100
+The total for 1 to 100 using 1 thread(s) is 5050
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ ./addem 1 100[1P 1005 100[C[C[C
+The total for 1 to 100 using 5 thread(s) is 5050
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ ./addem 5 100[1P 1001 1000 1000 1000 100
+The total for 1 to 100 using 10 thread(s) is 5050
+]0;jerry@jerry-VirtualBox: ~/Desktop[01;32mjerry@jerry-VirtualBox[00m:[01;34m~/Desktop[00m$ exit
+exit
+
+Script done on 2020-10-05 18:55:50-04:00 [COMMAND_EXIT_CODE="0"]
